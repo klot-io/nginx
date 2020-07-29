@@ -1,6 +1,6 @@
 ACCOUNT=klotio
 IMAGE=nginx
-VERSION?=0.1
+VERSION?=0.2
 NAME=$(IMAGE)-$(ACCOUNT)
 
 .PHONY: cross build shell push tag untag
